@@ -1,0 +1,50 @@
+2024-01-03 11:22:32,606 INFO in.kpmg.sfdbappservice.SfdbAppServiceApplication [main] Starting SfdbAppServiceApplication using Java 1.8.0_202 on IN-VIGNESHS4 with PID 27192 (C:\Users\vigneshs4\SFDB_api\sfdb-app-service\target\classes started by vigneshs4 in C:\Users\vigneshs4\SFDB_api\sfdb-app-service)
+2024-01-03 11:22:32,612 INFO in.kpmg.sfdbappservice.SfdbAppServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-03 11:22:34,028 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-01-03 11:22:34,028 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-03 11:22:34,201 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/MakkalService] [main] Initializing Spring embedded WebApplicationContext
+2024-01-03 11:22:34,286 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2024-01-03 11:22:34,323 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-01-03 11:24:59,334 INFO in.kpmg.sfdbappservice.SfdbAppServiceApplication [main] Starting SfdbAppServiceApplication using Java 1.8.0_202 on IN-VIGNESHS4 with PID 11364 (C:\Users\vigneshs4\SFDB_api\sfdb-app-service\target\classes started by vigneshs4 in C:\Users\vigneshs4\SFDB_api\sfdb-app-service)
+2024-01-03 11:24:59,339 INFO in.kpmg.sfdbappservice.SfdbAppServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-01-03 11:25:00,527 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-01-03 11:25:00,527 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2024-01-03 11:25:00,698 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/MakkalService] [main] Initializing Spring embedded WebApplicationContext
+2024-01-03 11:25:00,762 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2024-01-03 11:25:00,793 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
